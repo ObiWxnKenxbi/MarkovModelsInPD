@@ -9,7 +9,6 @@ In Pure Data, the data is gathered through the pyext object, which unpacks 8 val
 The velocities are controlled with a random object to add variation to the chord velocity. Velocity number 1 generates a random number between 60 and 80, velocity number 2 generates a random number between 80 and 100, and velocity number 3 generates a random number between 100 and 127. 
 
 Finally, the chord progression and velocity data are sent to the serum plugin to generate sound. To ensure that each chord is played in a steady tempo, the system is designed to play each chord every quarter time.
-![image](https://user-images.githubusercontent.com/118756131/233040846-f6745c82-a4ea-4ac1-982d-54ca06f3b0c6.png)
 
 GUI Instructions:
 1. Star the clock and set a BPM.
@@ -19,4 +18,3 @@ GUI Instructions:
 5. Increase the gain 
 
 
-![image](https://user-images.githubusercontent.com/118756131/233040874-9b49aecb-a295-42b9-a1a3-1e918b0c6de0.png)
